@@ -1,0 +1,92 @@
+$font-stack:    Helvetica, sans-serif;
+$nus-blue:  #003D7C;  // #003D7C 
+$nus-orange: #EF7C00;  // #EF7C00 
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+#footer {
+  height: 30px;
+  background-color: $nus-orange;
+}
+
+.row-header{
+	margin:0px auto;
+	padding:0px auto;
+}
+
+.row-content{
+	margin:0px auto;
+	padding: 50px 0px 50px 0px;
+	border-bottom: 1px ridge;
+	min-height: 400px;
+}
+
+.row-footer{
+	background-color: #AfAfAf;
+	margin:0px auto;
+	padding: 20px 0px 20px 0px;
+}
+
+.jumbotron{
+	padding: 70px 30px 70px 30px;
+	margin: 0px auto;
+	background: $nus-blue;
+	color: floralwhite;
+}
+
+address{
+	font-size: 80%;
+	margin:0px;
+	color: #0f0f0f;
+}
+
+body{
+    font: 100% $font-stack;
+    align:center;
+    padding:50px 0px 50px 0px;
+    z-index: 0;
+}
+
+.navbar-inverse {
+    background: $nus-blue; 
+
+}
+
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+	color:$nus-orange;
+	background:#fff;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+	color:#fff;
+	background:$nus-orange;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a,
+.navbar-inverse .navbar-nav .open .dropdown-menu {
+	color:#ffffff;
+	background-color:$nus-orange;
+}
+
+
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a:hover {
+	color:$nus-orange;
+}
